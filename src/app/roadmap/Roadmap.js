@@ -12,7 +12,7 @@ const Roadmap = () => {
 
                             <img src='Images/roadmaptoken.png' className='forResponsive w-1/3  hover:transform hover:scale-110 transition-transform duration-500' ></img>
 
-                            <img src="images/roadmappath.png" className='forResponsive w-1/2 ' ></img>
+                            <img src="Images/roadmappath.png" className='forResponsive w-1/2 ' ></img>
                         </div>
                         <div className='absolute phase1 transform -translate-x-1/2 -translate-y-1/2  hover:transform hover:scale-110 transition-transform duration-500'>
                             <div className='opacity-bg w-full px-8 py-10 mt-8 rounded-[25px] flex flex-col justify-center items-center'>

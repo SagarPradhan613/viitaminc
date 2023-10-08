@@ -207,7 +207,7 @@ const Tokenomics = () => {
                                         <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl mb-4'>Next</p>
                                     </div>
                                     <div onClick={() => { backClickhandle() }} className=' hover:transform hover:scale-105 transition-transform duration-500'>
-                                        <img src='images/arrowlefttoken.png' className='transform scale-x-[-1] rotate-0'></img>
+                                        <img src='Images/arrowlefttoken.png' className='transform scale-x-[-1] rotate-0'></img>
                                         <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>Back</p>
                                     </div>
                                 </div>

@@ -1,0 +1,120 @@
+.contract-main{
+    background-image: url('/Images/roadmapbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    mix-blend-mode: darken;
+    width: 100%;
+}
+
+  
+.contract-main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(252, 218, 95, 0.7), rgba(247, 206, 74, 0.9), rgba(252, 218, 95, 0.7));
+    z-index: 1;
+    /* Set the z-index higher than the background image */
+  }
+  
+.contract-content {
+    position: relative;
+    z-index: 1;
+    /* Set a higher z-index to keep the content fully opaque */
+  }
+.btn-contract{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+/* For modern browsers */
+.roadmapli::marker {
+    background-image: linear-gradient(90deg, #F8D602 -6.42%, #F67E03 109.78%);
+    color: transparent; /* Hide the default marker */
+  }
+  
+  /* For older browsers (e.g., Internet Explorer) */
+  .roadmapli {
+    position: relative;
+  }
+  
+  .roadmapli::before {
+    content: "";
+    position: absolute;
+    left: -1em; /* Adjust the position as needed */
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(90deg, #F8D602 -6.42%, #F67E03 109.78%);
+    border-radius: 50%;
+  }
+
+  .spcl-li::before {
+    content: "";
+    position: absolute;
+    left: -1em; /* Adjust the position as needed */
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(90deg, #F8D602 -6.42%, #F67E03 109.78%);
+    opacity: 30%;
+    filter: brightness(.9);
+    border-radius: 50%;
+  }
+
+  .roadmapul{
+    margin-top: 1.5rem;
+  }
+  .roadmapli{
+    margin-top: 1.5rem;
+  }
+  .phase1{
+    left: -5rem;
+    top: 30%;
+  }
+  .phase2{
+    left: 80%;
+    top: 30%;
+  }
+  .phase3{
+    left: -5rem;
+    top: 65%;
+  }
+  .phase4{
+    left: 80%;
+    top: 65%;
+  }
+  @media screen and (max-width: 1200px) {
+     .forResponsive{
+        width: 50%;
+     }
+     .responsiveHeading{
+        font-size: 1.5rem;
+     }
+     .roadmapli{
+        font-size: 0.875rem;
+        margin-top: 1rem;
+     }
+     
+
+     .roadmapul{
+        margin-top: 1rem;
+     }
+     .phase1{
+        left: -3rem;
+        top: 30%;
+      }
+      .phase2{
+        left: 75%;
+        top: 25%;
+      }
+      .phase3{
+        left: -3rem;
+        top: 75%;
+      }
+      .phase4{
+        left: 75%;
+        top: 65%;
+      }
+  }

@@ -1,0 +1,14 @@
+.footerborder {
+    background: rgb(252, 210, 133);
+    background: linear-gradient(90deg, rgba(252, 210, 133, 1) 50%, rgba(253, 221, 109, 1) 72%);
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Your CSS rules for mobile devices go here */
+    /* Example: */
+    .footerborder {
+        background: rgb(226, 173, 17);
+        background: linear-gradient(90deg, rgba(226, 173, 17, 1) 50%, rgba(226, 173, 17, 1) 72%);
+    }
+}

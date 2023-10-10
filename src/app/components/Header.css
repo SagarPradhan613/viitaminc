@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-  nav{
-      background-color: white
+  nav {
+    background-color: white
   }
 }
 
@@ -9,7 +9,25 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-.company-logo{
- width: 80%;
+  .company-logo {
+    width: 80%;
+  }
 }
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .header-logo{
+    width: 160px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1120px) {
+  .media-fontsize{
+  font-size: 12px;
+  }
+}
+@media (min-width:3840px){
+  .responsive-nav{
+    display: flex;
+    justify-content: center;
+  }
 }

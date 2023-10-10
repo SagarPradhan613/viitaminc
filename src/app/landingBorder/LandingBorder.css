@@ -2,3 +2,16 @@
     opacity: 1;
     filter: grayscale(100%);
 }
+@media screen and (min-width: 1280px) {
+    .responsive-line{
+      margin-bottom: -2px;
+    }
+  }
+  @media screen and (min-width: 3240px) {
+    .vitamintextimg{
+      width: 40%;
+    }
+    .responsive-side-logo{
+        width: 300px;
+    }
+  }

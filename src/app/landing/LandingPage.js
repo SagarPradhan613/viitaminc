@@ -3,7 +3,7 @@ import './Landing.css'
 const LandingPage = () => {
     return (
         <>
-            <div className='box2 flex flex-col justify-center items-center pt-5'>
+            <div className='responsive-line box2 flex flex-col justify-center items-center pt-5'>
                 <div className='box2-content w-full'>
                     <div className='relative flex flex-col justify-center items-center w-full lg:h-[100vh] h-[50vh]'>
                         <img src='Images/herologo.png' className='w-1/4 hover:transform hover:scale-105 transition-transform duration-500'></img>

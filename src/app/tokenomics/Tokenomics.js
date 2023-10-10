@@ -103,7 +103,7 @@ const Tokenomics = () => {
 
                             <div className='flex justify-around w-full '>
                                 <div className='text-left'>
-                                    <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>Allocation</p>
+                                    <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>ALLOCATION</p>
                                     <div className='bg-[#000] h-[1px] w-1/2 mt-4'></div>
                                     <p className='text-[#361700] font-medium mt-16 opacity-90 text-base lg:text-2xl'>Public Sale</p>
                                     {/* <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>NFTs</p> */}
@@ -114,7 +114,7 @@ const Tokenomics = () => {
                                     <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>Liquidity</p>
                                 </div>
                                 <div className='text-left'>
-                                    <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>Amount</p>
+                                    <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>AMOUNT</p>
                                     <div className='bg-[#000] h-[1px] w-1/3 mt-4'></div>
                                     <p className='text-[#361700] font-medium mt-16 opacity-90 text-base lg:text-2xl'>40% (400,000,000)</p>
                                     {/* <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>5% (50,000,000)</p> */}
@@ -125,7 +125,7 @@ const Tokenomics = () => {
                                     <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>25% (250,000,000)</p>
                                 </div>
                                 <div className='text-left'>
-                                    <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>Vesting</p>
+                                    <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>VESTING</p>
                                     <div className='bg-[#000] h-[1px] w-1/4 mt-4'></div>
                                     <p className='text-[#361700] font-medium mt-16 opacity-90 text-base lg:text-2xl'>100% at TGE</p>
                                     {/* <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% TGE , 10% Linear</p> */}
@@ -158,7 +158,7 @@ const Tokenomics = () => {
                                 {slide3 ? (
                                     <>
                                         <div>
-                                            <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>Vesting</p>
+                                            <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>VESTING</p>
                                             <div className='w-1/2 h-[1px] bg-black'></div>
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>100% at TGE</p>
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% TGE , 10% Linear</p>
@@ -172,7 +172,7 @@ const Tokenomics = () => {
                                 ) : slide2 ? (
                                     <>
                                         <div>
-                                            <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>Amount</p>
+                                            <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>AMOUNT</p>
                                             <div className='w-1/2 h-[1px] bg-black'></div>
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>40% (400,000,000)</p>
                                             {/* <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>5% (50,000,000)</p> */}
@@ -186,7 +186,7 @@ const Tokenomics = () => {
                                 ) : (
                                     <>
                                         <div>
-                                            <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>Allocation</p>
+                                            <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>ALLOCATION</p>
                                             <div className='w-1/2 h-[1px] bg-black'></div>
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>Public Sale</p>
                                             {/* <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>NFTs</p> */}

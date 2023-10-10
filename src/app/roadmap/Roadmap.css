@@ -70,20 +70,20 @@
     margin-top: 1.5rem;
   }
   .phase1{
-    left: -5rem;
-    top: 30%;
+    left: -11rem;
+    top: 29%;
   }
   .phase2{
-    left: 80%;
-    top: 30%;
+    left: 97%;
+    top: 32%;
   }
   .phase3{
-    left: -5rem;
-    top: 65%;
+    left: -11rem;
+    top: 63%;
   }
   .phase4{
-    left: 80%;
-    top: 65%;
+    left: 97%;
+    top: 66%;
   }
   @media screen and (max-width: 1200px) {
      .forResponsive{
@@ -102,19 +102,29 @@
         margin-top: 1rem;
      }
      .phase1{
-        left: -3rem;
-        top: 30%;
+        left: -7rem;
+        top: 28%;
       }
       .phase2{
-        left: 75%;
-        top: 25%;
+        left: 94%;
+        top: 32%;
       }
       .phase3{
-        left: -3rem;
-        top: 75%;
+        left: -7rem;
+        top: 62%;
       }
       .phase4{
-        left: 75%;
-        top: 65%;
+        left: 94%;
+        top: 66%;
       }
   }
+.roadmap-container{
+  padding-bottom: 5%;
+}
+.roadmapshadow{
+  box-shadow: rgba(255, 204, 0, 0.6) 0px 100px 100px, rgba(255, 204, 0, 0.4) 0px -30px 60px, rgba(255, 204, 0, 0.4) 0px 20px 40px, rgba(255, 204, 0, 0.5) 0px 30px 40px, rgba(255, 204, 0, 0.3) 0px -10px 20px;
+
+
+  border-radius: 50%;
+
+}

@@ -7,10 +7,10 @@ const Ecosystem = () => {
                 <div className='flex flex-col justify-center items-center align-middle'>
                     <p className='text-[#361700] text-3xl lg:text-5xl font-extrabold opacity-90 font-Staatliches  hover:transform hover:scale-110 transition-transform duration-500'>ECOSYSTEM</p>
                     <div className='mt-16 lg:flex w-full relative py-10'>
-                        <div className='ecoleft lg:w-1/2 px-5 py-5 flex justify-center items-center'>
-                            <img src='Images/newecosystem.png' className='opacity-30  bg-center bg-cover mix-blend-multiply'></img>
+                        <div className='ecoleft responsive-eco-left lg:w-1/2 px-5 py-5 flex justify-center items-center'>
+                            <img src='Images/newecosystem.png' className='opacity-90  bg-center bg-cover mix-blend-multiply'></img>
                         </div>
-                        <div className='ecoright flex flex-col lg:w-1/2 px-10 py-5'>
+                        <div className='ecoright responsive-eco-right flex flex-col lg:w-1/2 px-10 py-5'>
                             <div className='hover:transform hover:scale-105 transition-transform duration-500'>
                                 <p className='text-[#361700] font-bold opacity-90 text-xl lg:text-4xl'>1. P2E Games</p>
                                 <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>Vitamin Core offers a blend of classic gaming and modern cryptocurrency rewards with Roll Dice and Roshambo. Roll Dice provides a digital rendition of the dice game, while Roshambo revives the classic Rock-Paper-Scissors challenge. Both games, integrated seamlessly with Core Chain, allow participants to play with their $VITA or $BOW tokens.</p>

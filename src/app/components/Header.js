@@ -12,7 +12,7 @@ const Header = ({ setOpenPrivacy, handleToggleModal }) => {
                     />
                 </div>
                 <div className='hidden lg:block responsive-right-header w-full justify-end  align-middle'>
-                    <ul className='flex responsive-header-ul justify-center align-middle items-center'>
+                    <ul className='flex responsive-header-ul justify-end align-middle items-center'>
                         <li className='mx-3 responsive-header-li hover:transform hover:scale-110 transform transition-transform duration-300'>
                             <a href="#ecosystem" className="text-base font-Staatliches media-fontsize font-semibold text-[#ECE3CD] hover:transform hover:scale-110 transform transition-transform duration-300">ECOSYSTEM</a>
                         </li>

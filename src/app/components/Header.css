@@ -16,53 +16,68 @@
 
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-  .header-logo{
+  .header-logo {
     width: 160px;
   }
 }
+
 @media (min-width: 1000px) and (max-width: 1120px) {
-  .media-fontsize{
-  font-size: 12px;
+  .media-fontsize {
+    font-size: 12px;
   }
 }
 
-@media screen and (min-width:3840px){
-  .responsive-nav{
+@media (min-width: 1920px) and (max-width:3839px) {
+  .responsive-header-ul {
+    margin-right: -10%;
+  }
+}
+
+@media screen and (min-width:3840px) {
+  .responsive-nav {
     display: flex;
     justify-content: space-between;
     padding-top: 35px;
     padding-bottom: 35px;
   }
+
   .responsive-nav-container {
     display: flex;
     justify-content: space-between;
   }
-  .responsive-header-ul{
+
+  .responsive-header-ul {
     justify-content: end;
   }
-  .responsive-right-header{
-   position: absolute;
-   right: 5%;
+
+  .responsive-right-header {
+    position: absolute;
+    right: 5%;
   }
-  .header-logo{
+
+  .header-logo {
     width: 200px;
     margin-left: 100px;
   }
-  .media-fontsize{
+
+  .media-fontsize {
     font-size: 20px;
   }
-  .responsive-header-li{
+
+  .responsive-header-li {
     margin-left: 60px;
     margin-right: 60px;
-    
+
   }
-  .responsive-header-button{
+
+  .responsive-header-button {
     padding-top: 20px;
     padding-bottom: 16px;
     padding-left: 20px;
     padding-right: 20px;
   }
 }
+
 /* @media screen and (min-width:7680px){
   .header-logo{
     width: 1000px;

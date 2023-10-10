@@ -7,7 +7,7 @@ const RewardToken = () => {
         <div className='border-[3px] border-[#E5C757] contract-main flex flex-col justify-center align-middle items-center py reward-container-overflow'>
             <div className='contract-content flex flex-col justify-center items-center align-middle'>
                 <div className='flex flex-col justify-center items-center align-middle'>
-                    <p className='text-[#361700] text-3xl lg:text-5xl font-extrabold opacity-90 font-Staatliches lg:mt-16 mt-10'>Reward Token</p>
+                    <p className='text-[#361700] text-3xl lg:text-5xl font-extrabold opacity-90  lg:mt-16 mt-10'>REWARD TOKEN</p>
                 </div>
                 <div className='absolute left-0 top-10 opacity-70 lg:block hidden'>
                     <img src='Images/lefttrophy.png' className='lg:block hidden'></img>

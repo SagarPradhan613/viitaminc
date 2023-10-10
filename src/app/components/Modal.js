@@ -68,7 +68,7 @@ const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
                 <div className='flex flex-col justify-center align-middle items-center'>
                     <img src='/Images/VcLogoMobile.png' className='w-1/3'></img>
                     <button className='hover:transform hover:scale-110 transform transition-transform duration-300  mt-6 bg-gradient-to-r from-[#F8D602] rounded-[400px] px-4 py-2 to-[#F67E03] text-black'>
-                        <a href="#" className="text-xl text-black font-semibold ">Connect</a>
+                        <a href="#" className="text-xl text-black font-bold ">BUY $VITA</a>
                     </button>
                 </div>
                 <div className='h-1 w-[90%] bg-gradient-to-r from-[#F8D602] to-[#F67E03] mt-6'>

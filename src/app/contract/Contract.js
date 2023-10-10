@@ -13,7 +13,7 @@ const Contract = () => {
         document.body.removeChild(textArea);
 
         // Optionally, provide feedback to the user that the text has been copied
-        alert(`Copied: ${textToCopy}`);
+        // alert(`Copied: ${textToCopy}`);
     };
     return (
         <>

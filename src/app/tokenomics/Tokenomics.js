@@ -119,10 +119,10 @@ const Tokenomics = () => {
                                     <p className='text-[#361700] font-medium mt-16 opacity-90 text-base lg:text-2xl'>40% (400,000,000)</p>
                                     {/* <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>5% (50,000,000)</p> */}
                                     <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
-                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>5% (50,000,000)</p>
+                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>5% (500,000,000)</p>
                                     <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
                                     <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
-                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>25% (250,000,000)</p>
+                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>25% (2,500,000,000)</p>
                                 </div>
                                 <div className='text-left'>
                                     <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>VESTING</p>
@@ -177,10 +177,10 @@ const Tokenomics = () => {
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>40% (400,000,000)</p>
                                             {/* <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>5% (50,000,000)</p> */}
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
-                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>5% (50,000,000)</p>
+                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>5% (500,000,000)</p>
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
-                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>25% (250,000,000)</p>
+                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>25% (2,500,000,000)</p>
                                         </div>
                                     </>
                                 ) : (

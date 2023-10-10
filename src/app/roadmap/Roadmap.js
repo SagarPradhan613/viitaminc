@@ -23,7 +23,7 @@ const Roadmap = () => {
                                 <ul className='roadmapul flex flex-col justify-center items-start align-middle'>
                                     <li className='roadmapli pl-3 list-inside list-disc text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium opacity-90 text-base lg:text-xl'>Building community</li>
                                     <li className='roadmapli pl-3 list-inside list-disc text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium opacity-90 text-base lg:text-xl'>Carrying out Marketing</li>
-                                    <li className='roadmapli pl-3 list-inside list-disc text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium opacity-90 text-base lg:text-xl'>Launching $VITA on Core Chain</li>
+                                    <li className='roadmapli pl-3 list-inside list-disc text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium opacity-90 text-base lg:text-xl'>Launching $VITA on Core Chain</li>
                                 </ul>
                             </div>
                         </div>
@@ -86,9 +86,9 @@ const Roadmap = () => {
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 1</p>
                             </div>
                             <ul className='roadmapul flex flex-col justify-center items-center align-middle '>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Building community</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Carrying out Marketing</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Launching $VITA on Core Chain</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Building community</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Carrying out Marketing</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Launching $VITA on Core Chain</li>
                                 {/* <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li>
                                 <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li>
                                 <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li> */}
@@ -103,9 +103,9 @@ const Roadmap = () => {
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 2</p>
                             </div>
                             <ul className='roadmapul flex flex-col justify-center items-center align-middle '>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Initiating auto dividend rewards</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Introducing $VITA staking pool</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Post launch marketing</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Initiating auto dividend rewards</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Introducing $VITA staking pool</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Post launch marketing</li>
                                 {/* <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li>
                                 <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li>
                                 <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li> */}
@@ -120,9 +120,9 @@ const Roadmap = () => {
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 3</p>
                             </div>
                             <ul className='roadmapul flex flex-col justify-center items-center align-middle '>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Introducing GameFi on Vitamin C</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Launching Roll Dice</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Launching Rock, Paper & Scissors</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Introducing GameFi on Vitamin C</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Launching Roll Dice</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Launching Rock, Paper & Scissors</li>
                                 {/* <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li>
                                 <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li> */}
                                 {/* <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li> */}
@@ -137,9 +137,9 @@ const Roadmap = () => {
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 4</p>
                             </div>
                             <ul className='roadmapul flex flex-col justify-center items-center align-middle '>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Strategic Partnerships</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Vitamin Core Games Audit</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>$VITA CEX Listing</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Strategic Partnerships</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Vitamin Core Games Audit</li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>$VITA CEX Listing</li>
                                 {/* <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li>
                                 <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li>
                                 <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li> */}

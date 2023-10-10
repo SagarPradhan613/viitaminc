@@ -20,7 +20,7 @@ const RewardToken = () => {
                 </div>
                 <div className='lg:flex '>
                     <div className='lg:w-[60%] py-5 lg:px-20 px-10 mt-10 lg:mt-0 lg:mb-20 mb-16 responsive-left-reward-portion'>
-                        <div className='lg:mt-64 hover:transform hover:scale-105 transition-transform duration-500'>
+                        <div className='lg:mt-64'>
                             <p className='text-[#361700] font-bold opacity-90 text-xl lg:text-4xl'>Auto Dividend Hourly Rewards</p>
                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>Auto dividend reward mechanism stands out as a unique and enticing feature within the Vitamin Core ecosystem. Holders of $VITA tokens are automatically entitled to dividends, which are accurately and periodically dispensed each hour without any manual intervention.
 

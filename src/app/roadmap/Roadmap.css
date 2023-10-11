@@ -128,3 +128,23 @@
   border-radius: 50%;
 
 }
+@media (min-width: 1280px) {
+  .phase3{
+    left: -11rem;
+    top: 63%;
+  }
+  .phase4{
+    left: 92%;
+    top: 66%;
+  }
+  .phase2{
+    left: 97%;
+    top: 32%;
+  }
+  .responsive-li-text{
+    font-size: 18px;
+  }
+  .responsive-ul-m{
+    margin-left: 25px;
+  }
+}

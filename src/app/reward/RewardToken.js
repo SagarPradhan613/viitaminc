@@ -26,7 +26,7 @@ const RewardToken = () => {
 
                                 The underlying smart contract diligently tracks every holder's balance, guaranteeing precise dividend distributions. Dividends are remitted in the form of $BOW tokens, seamlessly sent to the holder's wallet.
 
-                                To partake in this rewarding experience, a holder must maintain a minimum balance of 50,000 $VITA tokens. Moveover, the system operates on a scalable model; the more $VITA tokens one possesses, the heftier the dividends they reap.
+                                To partake in this rewarding experience, a holder must maintain a minimum balance of 500,000 $VITA tokens. Moveover, the system operates on a scalable model; the more $VITA tokens one possesses, the heftier the dividends they reap.
                             </p>
                             {/* <button className='btn-contract lg:ml-2 text-xl font-Staatliches font-bold hover:transform hover:scale-110 transform transition-transform duration-300 bg-gradient-to-r from-[#F8D602] rounded-[400px] px-6 py-2 to-[#F67E03] text-black mt-10 opacity-50'>
                                 BUY $VITA

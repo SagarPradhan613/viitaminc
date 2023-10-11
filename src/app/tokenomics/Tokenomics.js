@@ -16,6 +16,7 @@ const Tokenomics = () => {
             setSlide1(true);
             setSlide2(false);
             setSlide3(false);
+           
         }
 
         if (newValue >= 50 && newValue <= 99) {
@@ -23,6 +24,7 @@ const Tokenomics = () => {
             setSlide1(false);
             setSlide2(true);
             setSlide3(false);
+         
         }
 
         if (newValue === 100) {
@@ -30,6 +32,7 @@ const Tokenomics = () => {
             setSlide1(false);
             setSlide2(false);
             setSlide3(true);
+           
         }
     };
     const sliderStyles = {
@@ -52,10 +55,12 @@ const Tokenomics = () => {
             setSlide1(false);
             setSlide2(true);
             setSlide3(false);
+            setSliderValue(50); 
         } else if (slide2) {
             setSlide1(false);
             setSlide2(false);
             setSlide3(true);
+            setSliderValue(100);
         } else if (slide3) {
             setSlide1(false);
             setSlide2(false);
@@ -71,10 +76,12 @@ const Tokenomics = () => {
             setSlide1(true);
             setSlide2(false);
             setSlide3(false);
+            setSliderValue(0); 
         } else if (slide3) {
             setSlide1(false);
             setSlide2(true);
             setSlide3(false);
+            setSliderValue(50); 
         }
     }
 

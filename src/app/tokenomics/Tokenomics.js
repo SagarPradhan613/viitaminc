@@ -116,12 +116,12 @@ const Tokenomics = () => {
                                 <div className='text-left'>
                                     <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>AMOUNT</p>
                                     <div className='bg-[#000] h-[1px] w-1/3 mt-4'></div>
-                                    <p className='text-[#361700] font-medium mt-16 opacity-90 text-base lg:text-2xl'>40% (400,000,000)</p>
+                                    <p className='text-[#361700] font-medium mt-16 opacity-90 text-base lg:text-2xl'>40% (4,000,000,000)</p>
                                     {/* <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>5% (50,000,000)</p> */}
-                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
+                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% (1,000,000,000)</p>
                                     <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>5% (500,000,000)</p>
-                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
-                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
+                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% (1,000,000,000)</p>
+                                    <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>10% (1,000,000,000)</p>
                                     <p className='text-[#361700] font-medium mt-6 opacity-90 text-base lg:text-2xl'>25% (2,500,000,000)</p>
                                 </div>
                                 <div className='text-left'>
@@ -174,12 +174,12 @@ const Tokenomics = () => {
                                         <div>
                                             <p className='text-[#361700] font-extrabold opacity-90 text-lg lg:text-3xl  hover:transform hover:scale-110 transition-transform duration-500'>AMOUNT</p>
                                             <div className='w-1/2 h-[1px] bg-black'></div>
-                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>40% (400,000,000)</p>
+                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>40% (4,000,000,000)</p>
                                             {/* <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>5% (50,000,000)</p> */}
-                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
+                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% (1,000,000,000)</p>
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>5% (500,000,000)</p>
-                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
-                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% (100,000,000)</p>
+                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% (1,000,000,000)</p>
+                                            <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>10% (1,000,000,000)</p>
                                             <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>25% (2,500,000,000)</p>
                                         </div>
                                     </>

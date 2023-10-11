@@ -28,6 +28,9 @@ const Header = ({ setOpenPrivacy, handleToggleModal }) => {
                         <li className='mx-3 responsive-header-li hover:transform hover:scale-110 transform transition-transform duration-300'>
                             <a href="#roshambo" className="text-base font-Staatliches media-fontsize font-semibold text-[#ECE3CD] hover:transform hover:scale-110 transform transition-transform duration-300">ROSHAMBO</a>
                         </li>
+                        <li className='mx-3 responsive-header-li hover:transform hover:scale-110 transform transition-transform duration-300'>
+                            <a href="https://drive.google.com/file/d/1vKw9vt0hnor14KwewkBtdG2MvLDU9Mu1/view?usp=sharing" className="text-base font-Staatliches media-fontsize font-semibold text-[#ECE3CD] hover:transform hover:scale-110 transform transition-transform duration-300" target="_blank">WHITEPAPER</a>
+                        </li>
                         <li className='mx-4  responsive-header-li ml-6 hover:transform hover:scale-110 transform transition-transform duration-300'>
                             <button className='responsive-header-button hover:transform hover:scale-110 transform transition-transform duration-300 bg-gradient-to-r from-[#F8D602] rounded-[400px] px-4 py-2 to-[#F67E03] text-black'>
                                 <a href="#" className="text-base font-Staatliches media-fontsize media-button  font-semibold text-black">BUY $VITA</a>

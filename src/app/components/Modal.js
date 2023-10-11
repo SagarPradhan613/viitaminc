@@ -89,6 +89,9 @@ const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
                     <li>
                         <a href="#roshambo" className="text-xl text-[#ECE3CD] hover:transform hover:scale-110 transform transition-transform duration-300">ROSHAMBO</a>
                     </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1vKw9vt0hnor14KwewkBtdG2MvLDU9Mu1/view?usp=sharing" target='blank' className="text-xl text-[#ECE3CD] hover:transform hover:scale-110 transform transition-transform duration-300">WHITEPAPER</a>
+                    </li>
                 </ul>
             </div>
         </div>

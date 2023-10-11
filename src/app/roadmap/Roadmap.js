@@ -15,7 +15,7 @@ const Roadmap = () => {
                             <img src="Images/roadmappath.png" className=' -mt-1'></img>
                         </div>
                         <div className='absolute phase1 transform -translate-x-1/2 -translate-y-1/2  hover:transform hover:scale-110 transition-transform duration-500'>
-                            <div className='opacity-bg w-full px-8 py-10 mt-8 rounded-[25px] flex flex-col justify-center items-center'>
+                            <div className='opacity-bg w-full px-8 py-10 mt-8 rounded-[25px] flex flex-col justify-center items-center lg:min-w-[400px]'>
                                 <div className='flex justify-center items-center'>
                                     <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90 opacity-50'></img>
                                     <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 1</p>
@@ -29,7 +29,7 @@ const Roadmap = () => {
                         </div>
 
                         <div className='absolute phase2'>
-                            <div className='opacity-bg w-full px-8 py-10 mt-8 rounded-[25px] flex flex-col justify-center items-center  hover:transform hover:scale-110 transition-transform duration-500'>
+                            <div className='opacity-bg w-full px-8 py-10 mt-8 rounded-[25px] flex flex-col justify-center items-center lg:min-w-[400px]  hover:transform hover:scale-110 transition-transform duration-500'>
                                 <div className='flex justify-center items-center'>
                                     <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90 opacity-50'></img>
                                     <p className='text-[#361700] responsiveHeading ml-5 font-extrabold opacity-90 text-lg lg:text-3xl'>PHASE 2</p>
@@ -44,7 +44,7 @@ const Roadmap = () => {
                         </div>
 
                         <div className='absolute phase3  transform -translate-x-1/2 -translate-y-1/2'>
-                            <div className='opacity-bg w-full  px-8 py-10   mt-8 rounded-[25px] flex flex-col justify-center items-center  hover:transform hover:scale-110 transition-transform duration-500'>
+                            <div className='opacity-bg w-full  px-8 py-10   mt-8 rounded-[25px] flex flex-col justify-center items-center lg:min-w-[400px]  hover:transform hover:scale-110 transition-transform duration-500'>
                                 <div className='flex justify-center items-center'>
                                     <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                     <p className='text-[#361700] ml-5 responsiveHeading font-extrabold opacity-90 text-lg lg:text-3xl'>PHASE 3</p>
@@ -60,7 +60,7 @@ const Roadmap = () => {
                             </div>
                         </div>
                         <div className='absolute phase4 '>
-                            <div className='opacity-bg w-full  px-8 py-10   mt-8 rounded-[25px] flex flex-col justify-center items-center  hover:transform hover:scale-110 transition-transform duration-500'>
+                            <div className='opacity-bg w-full  px-8 py-10   mt-8 rounded-[25px] flex flex-col justify-center items-center lg:min-w-[400px]  hover:transform hover:scale-110 transition-transform duration-500'>
                                 <div className='flex justify-center items-center'>
                                     <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                     <p className='text-[#361700] ml-5 responsiveHeading font-extrabold opacity-90 text-lg lg:text-3xl'>PHASE 4</p>
@@ -80,29 +80,37 @@ const Roadmap = () => {
                         <img src='Images/mobileroadmaptoken.png' className=''></img>
                         <div className='w-[3px] h-20  bg-[#361700]'></div>
                         <div className='w-28 h-[3px] bg-[#361700]'></div>
-                        <div className='w-full rounded-[25px] opacity-bg px-5 py-8 '>
+                        <div className='w-full rounded-[25px] opacity-bg px-5 py-8 flex flex-col items-center '>
                             <div className='flex justify-center items-center'>
-                                <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
-                                <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 1</p>
+                                <img
+                                    src='Images/phasepoints.png'
+                                    className='mix-blend-luminosity filter brightness-90 opacity-50'
+                                />
+                                <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>
+                                    PHASE 1
+                                </p>
                             </div>
-                            <ul className='roadmapul flex flex-col justify-center items-center align-middle '>
-                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Building community</li>
-                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Carrying out Marketing</li>
-                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Launching $VITA on Core Chain</li>
-                                {/* <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li>
-                                <li className='roadmapli text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Lorem Ipsum is a Dummy Text</li> */}
+                            <ul className='roadmapul flex flex-col justify-center items-start align-middle '>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center items-center align-middle font-medium opacity-90 text-base lg:text-xl'>
+                                    Building community
+                                </li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium opacity-90 text-base lg:text-xl'>
+                                    Carrying out Marketing
+                                </li>
+                                <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium opacity-90 text-base lg:text-xl'>
+                                    Launching $VITA on Core Chain
+                                </li>
                             </ul>
-
                         </div>
+
                         <div className='w-[3px] h-10  bg-[#361700]'></div>
                         <div className='w-28 h-[3px] bg-[#361700]'></div>
-                        <div className='w-full rounded-[25px] opacity-bg px-5 py-8'>
+                        <div className='w-full rounded-[25px] opacity-bg px-5 py-8 flex flex-col items-center '>
                             <div className='flex justify-center items-center'>
                                 <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 2</p>
                             </div>
-                            <ul className='roadmapul flex flex-col justify-center items-center align-middle '>
+                            <ul className='roadmapul flex flex-col justify-center items-start align-middle '>
                                 <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Initiating auto dividend rewards</li>
                                 <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Introducing $VITA staking pool</li>
                                 <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Post launch marketing</li>
@@ -114,12 +122,12 @@ const Roadmap = () => {
                         </div>
                         <div className='w-[3px] h-10  bg-[#361700]'></div>
                         <div className='w-28 h-[3px] bg-[#361700]'></div>
-                        <div className='w-full rounded-[25px] opacity-bg px-5 py-8'>
+                        <div className='w-full flex flex-col items-center  rounded-[25px] opacity-bg px-5 py-8'>
                             <div className='flex justify-center items-center'>
                                 <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 3</p>
                             </div>
-                            <ul className='roadmapul flex flex-col justify-center items-center align-middle '>
+                            <ul className='roadmapul flex flex-col justify-center items-start align-middle '>
                                 <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Introducing GameFi on Vitamin C</li>
                                 <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Launching Roll Dice</li>
                                 <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Launching Rock, Paper & Scissors</li>
@@ -131,12 +139,12 @@ const Roadmap = () => {
                         </div>
                         <div className='w-[3px] h-10  bg-[#361700]'></div>
                         <div className='w-28 h-[3px] bg-[#361700]'></div>
-                        <div className='w-full rounded-[25px] opacity-bg px-5 py-8'>
+                        <div className='w-full flex flex-col items-center  rounded-[25px] opacity-bg px-5 py-8'>
                             <div className='flex justify-center items-center'>
                                 <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 4</p>
                             </div>
-                            <ul className='roadmapul flex flex-col justify-center items-center align-middle '>
+                            <ul className='roadmapul flex flex-col justify-center items-start align-middle '>
                                 <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Strategic Partnerships</li>
                                 <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>Vitamin Core Games Audit</li>
                                 <li className='roadmapli pl-3 text-[#361700] whitespace-nowrap flex flex-col justify-center spcl-li items-center align-middle font-medium  opacity-90 text-base lg:text-xl'>$VITA CEX Listing</li>

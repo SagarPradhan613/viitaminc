@@ -10,13 +10,13 @@ const RewardToken = () => {
                     <p className='text-[#361700] text-3xl lg:text-5xl font-extrabold opacity-90  lg:mt-16 mt-10'>REWARD TOKEN</p>
                 </div>
                 <div className='absolute left-0 top-10 opacity-70 lg:block hidden'>
-                    <img src='Images/lefttrophy.png' className='lg:block hidden'></img>
+                    <img src='https://media.vitamincore.financial/Images/lefttrophy.png' className='lg:block hidden'></img>
                 </div>
                 <div className='absolute left-0 top-0 opacity-50 lg:hidden block'>
-                    <img src='Images/lefttrophy.png' className='lg:hidden block w-1/4'></img>
+                    <img src='https://media.vitamincore.financial/Images/lefttrophy.png' className='lg:hidden block w-1/4'></img>
                 </div>
                 <div className='absolute left-0 top-0 opacity-50 '>
-                    <img src='Images/topleftreward.png' className='w-1/4 lg:w-full responsive-size-reward-img'></img>
+                    <img src='https://media.vitamincore.financial/Images/topleftreward.png' className='w-1/4 lg:w-full responsive-size-reward-img'></img>
                 </div>
                 <div className='lg:flex '>
                     <div className='lg:w-[60%] py-5 lg:px-20 px-10 mt-10 lg:mt-0 lg:mb-20 mb-16 responsive-left-reward-portion'>
@@ -35,9 +35,9 @@ const RewardToken = () => {
                     </div>
                     <div className='lg:w-[40%] relative'>
                         <div className='absolute right-0 bottom-20 opacity-80 w-[80%] responsive-reward-container'>
-                            <img src='Images/righttrophy.png' className='lg:block hidden responsive-right-reward'></img>
+                            <img src='https://media.vitamincore.financial/Images/righttrophy.png' className='lg:block hidden responsive-right-reward'></img>
                         </div>
-                        <img src='Images/rewardbg.png' className='lg:w-full w-1/4 absolute right-0 bottom-0 opacity-70 responsive-reward-yellow-bg' alt='Reward Background' />
+                        <img src='https://media.vitamincore.financial/Images/rewardbg.png' className='lg:w-full w-1/4 absolute right-0 bottom-0 opacity-70 responsive-reward-yellow-bg' alt='Reward Background' />
 
                     </div>
                 </div>

@@ -8,7 +8,7 @@ const Ecosystem = () => {
                     <p className='text-[#361700] text-3xl lg:text-5xl font-extrabold opacity-90 font-Staatliches  hover:transform hover:scale-110 transition-transform duration-500'>ECOSYSTEM</p>
                     <div className='mt-16 lg:flex w-full relative py-10'>
                         <div className='ecoleft responsive-eco-left lg:w-1/2 px-5 py-5 flex justify-center items-center'>
-                            <img src='Images/newecosystem.png' className='opacity-90  bg-center bg-cover mix-blend-multiply'></img>
+                            <img src='https://media.vitamincore.financial/Images/newecosystem.png' className='opacity-90  bg-center bg-cover mix-blend-multiply'></img>
                         </div>
                         <div className='ecoright responsive-eco-right flex flex-col lg:w-1/2 px-10 py-5'>
                             <div className=''>

@@ -24,11 +24,11 @@ const Contract = () => {
                     </div>
                     <div className='md:flex  justify-center items-center mt-20'>
                         <div className='flex justify-center items-center'>
-                            <img src='Images/Token2.png' className='md:w-1/3 w-1/5 mr-4 md:mr-8 hover:transform hover:scale-110 transition-transform duration-500'></img>
+                            <img src='https://media.vitamincore.financial/Images/Token2.png' className='md:w-1/3 w-1/5 mr-4 md:mr-8 hover:transform hover:scale-110 transition-transform duration-500'></img>
                             <p className='text-[#361700] text-base lg:text-4xl  opacity-90 font-Staatliches '>0x00000000000000000000</p>
                         </div>
                         <div   onClick={copyToClipboard} className='hover:transform hover:scale-110 transition-transform duration-500 flex justify-center items-center md:ml-10 '>
-                            <img src='Images/copy.png'></img>
+                            <img src='https://media.vitamincore.financial/Images/copy.png'></img>
                             <p className='text-[#361700E5] lg:text-xl text-sm cursor-pointer'>COPY</p>
                         </div>
                     </div>

@@ -210,11 +210,11 @@ const Tokenomics = () => {
                                 <div className='flex flex-col justify-center items-end w-full'>
                                     <div onClick={() => { nextClickhandle() }} className=' hover:transform hover:scale-105 transition-transform duration-500'>
                                         
-                                        <img src='Images/arrowlefttoken.png'></img>
+                                        <img src='https://media.vitamincore.financial/Images/arrowlefttoken.png'></img>
                                         <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl mb-4'>Next</p>
                                     </div>
                                     <div onClick={() => { backClickhandle() }} className=' hover:transform hover:scale-105 transition-transform duration-500'>
-                                        <img src='Images/arrowlefttoken.png' className='transform scale-x-[-1] rotate-0'></img>
+                                        <img src='https://media.vitamincore.financial/Images/arrowlefttoken.png' className='transform scale-x-[-1] rotate-0'></img>
                                         <p className='text-[#361700] font-normal mt-6 opacity-90 text-base lg:text-2xl'>Back</p>
                                     </div>
                                 </div>
@@ -230,10 +230,10 @@ const Tokenomics = () => {
                             />
                         </div>
                         <div className='flex lg:hidden mt-10 flex-col px-5 py-16 justify-center items-center'>
-                            <img src='Images/piechart.png' className=' hover:transform hover:scale-105 transition-transform duration-500'></img>
+                            <img src='https://media.vitamincore.financial/Images/piechart.png' className=' hover:transform hover:scale-105 transition-transform duration-500'></img>
                         </div>
                         <div className='lg:flex  hidden mt-10 flex-col px-5 py-16 justify-center items-center'>
-                            <img src='Images/piechartvalue.png' className='w-2/3 hover:transform hover:scale-105 transition-transform duration-500'></img>
+                            <img src='https://media.vitamincore.financial/Images/piechartvalue.png' className='w-2/3 hover:transform hover:scale-105 transition-transform duration-500'></img>
                         </div>
                     </div>
                 </div >

@@ -10,14 +10,14 @@ const Roadmap = () => {
                     <div className='hidden mt-20 relative  lg:flex flex-col justify-center items-center align-middle px-10 py-10 '>
                         <div className='flex flex-col justify-center items-center  align-middle'>
 
-                            <img src='Images/roadmaptoken.png' className='hover:transform hover:scale-110 transition-transform duration-500 roadmapshadow' ></img>
+                            <img src='https://media.vitamincore.financial/Images/roadmaptoken.png' className='hover:transform hover:scale-110 transition-transform duration-500 roadmapshadow' ></img>
 
-                            <img src="Images/roadmappath.png" className=' -mt-1'></img>
+                            <img src="https://media.vitamincore.financial/Images/roadmappath.png" className=' -mt-1'></img>
                         </div>
                         <div className='absolute phase1 transform -translate-x-1/2 -translate-y-1/2  hover:transform hover:scale-110 transition-transform duration-500'>
                             <div className='opacity-bg w-full px-8 py-10 mt-8 rounded-[25px] flex flex-col justify-center items-center lg:min-w-[400px]'>
                                 <div className='flex justify-center items-center'>
-                                    <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90 opacity-50'></img>
+                                    <img src='https://media.vitamincore.financial/Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90 opacity-50'></img>
                                     <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 1</p>
                                 </div>
                                 <ul className='roadmapul flex flex-col justify-center items-start align-middle'>
@@ -31,7 +31,7 @@ const Roadmap = () => {
                         <div className='absolute phase2'>
                             <div className='opacity-bg w-full px-8 py-10 mt-8 rounded-[25px] flex flex-col justify-center items-center lg:min-w-[400px]  hover:transform hover:scale-110 transition-transform duration-500'>
                                 <div className='flex justify-center items-center'>
-                                    <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90 opacity-50'></img>
+                                    <img src='https://media.vitamincore.financial/Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90 opacity-50'></img>
                                     <p className='text-[#361700] responsiveHeading ml-5 font-extrabold opacity-90 text-lg lg:text-3xl'>PHASE 2</p>
                                 </div>
                                 <ul className='roadmapul flex flex-col justify-center items-start align-middle'>
@@ -46,7 +46,7 @@ const Roadmap = () => {
                         <div className='absolute phase3  transform -translate-x-1/2 -translate-y-1/2'>
                             <div className='opacity-bg w-full  px-8 py-10   mt-8 rounded-[25px] flex flex-col justify-center items-center lg:min-w-[400px]  hover:transform hover:scale-110 transition-transform duration-500'>
                                 <div className='flex justify-center items-center'>
-                                    <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
+                                    <img src='https://media.vitamincore.financial/Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                     <p className='text-[#361700] ml-5 responsiveHeading font-extrabold opacity-90 text-lg lg:text-3xl'>PHASE 3</p>
                                 </div>
                                 <ul className='roadmapul flex flex-col justify-center items-start align-middle ml-3'>
@@ -60,7 +60,7 @@ const Roadmap = () => {
                         <div className='absolute phase4 '>
                             <div className='opacity-bg w-full  px-8 py-10   mt-8 rounded-[25px] flex flex-col justify-center items-center lg:min-w-[400px]  hover:transform hover:scale-110 transition-transform duration-500'>
                                 <div className='flex justify-center items-center'>
-                                    <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
+                                    <img src='https://media.vitamincore.financial/Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                     <p className='text-[#361700] ml-5 responsiveHeading font-extrabold opacity-90 text-lg lg:text-3xl'>PHASE 4</p>
                                 </div>
                                 <ul className='roadmapul flex flex-col justify-center items-start align-middle responsive-ul-m ml-2'>
@@ -76,13 +76,13 @@ const Roadmap = () => {
 
                     
                     <div className='lg:hidden   w-full  flex flex-col justify-center items-center relative mt-8  py-5'>
-                        <img src='Images/mobileroadmaptoken.png' className=''></img>
+                        <img src='https://media.vitamincore.financial/Images/mobileroadmaptoken.png' className=''></img>
                         <div className='w-[3px] h-20  bg-[#361700]'></div>
                         <div className='w-28 h-[3px] bg-[#361700]'></div>
                         <div className='w-full rounded-[25px] opacity-bg px-5 py-8 flex flex-col items-center '>
                             <div className='flex justify-center items-center'>
                                 <img
-                                    src='Images/phasepoints.png'
+                                    src='https://media.vitamincore.financial/Images/phasepoints.png'
                                     className='mix-blend-luminosity filter brightness-90 opacity-50'
                                 />
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>
@@ -106,7 +106,7 @@ const Roadmap = () => {
                         <div className='w-28 h-[3px] bg-[#361700]'></div>
                         <div className='w-full rounded-[25px] opacity-bg px-5 py-8 flex flex-col items-center '>
                             <div className='flex justify-center items-center'>
-                                <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
+                                <img src='https://media.vitamincore.financial/Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 2</p>
                             </div>
                             <ul className='roadmapul flex flex-col justify-center items-start align-middle '>
@@ -123,7 +123,7 @@ const Roadmap = () => {
                         <div className='w-28 h-[3px] bg-[#361700]'></div>
                         <div className='w-full flex flex-col items-center  rounded-[25px] opacity-bg px-5 py-8'>
                             <div className='flex justify-center items-center'>
-                                <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
+                                <img src='https://media.vitamincore.financial/Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 3</p>
                             </div>
                             <ul className='roadmapul flex flex-col justify-center items-start align-middle '>
@@ -140,7 +140,7 @@ const Roadmap = () => {
                         <div className='w-28 h-[3px] bg-[#361700]'></div>
                         <div className='w-full flex flex-col items-center  rounded-[25px] opacity-bg px-5 py-8'>
                             <div className='flex justify-center items-center'>
-                                <img src='Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
+                                <img src='https://media.vitamincore.financial/Images/phasepoints.png' className='mix-blend-luminosity filter brightness-90  opacity-50'></img>
                                 <p className='text-[#361700] ml-5 font-extrabold opacity-90 text-lg lg:text-3xl responsiveHeading'>PHASE 4</p>
                             </div>
                             <ul className='roadmapul ml-4 flex flex-col justify-center items-start align-middle '>

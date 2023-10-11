@@ -66,7 +66,7 @@ const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
                     </svg>
                 </button>
                 <div className='flex flex-col justify-center align-middle items-center'>
-                    <img src='/Images/VcLogoMobile.png' className='w-1/3'></img>
+                    <img src='https://media.vitamincore.financial/Images/VcLogoMobile.png' className='w-1/3'></img>
                     <button className='hover:transform hover:scale-110 transform transition-transform duration-300  mt-6 bg-gradient-to-r from-[#F8D602] rounded-[400px] px-4 py-2 to-[#F67E03] text-black'>
                         <a href="#" className="text-xl text-black font-bold ">BUY $VITA</a>
                     </button>

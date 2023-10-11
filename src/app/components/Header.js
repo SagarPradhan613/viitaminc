@@ -6,7 +6,7 @@ const Header = ({ setOpenPrivacy, handleToggleModal }) => {
         <nav className="bg-[#2F2F2F] w-full  rounded-t-0 rounded-r-0 rounded-b-[210px] rounded-l-0 py-4 lg:px-28 px-10 md:px-16  absolute top-0 z-50 responsive-nav">
             <div className="container responsive-nav-container  flex  lg:items-center justify-between items-center align-middle">
                 <div className="flex items-center">
-                    <img src="/Images/HeaderLogoVc.png" alt="Logo"
+                    <img src="https://media.vitamincore.financial/Images/HeaderLogoVc.png" alt="Logo"
                         // className="lg:w-1/3 w-1/3 company-logo" 
                         className='lg:w-[200px] w-[116px] md:w-[150px] header-logo'
                     />
